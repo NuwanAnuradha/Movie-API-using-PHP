@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+<title>Page Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+        body{
+            background-image: url('img_la.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+        .test{
+            text-align: center;
+        }
+         h1{
+            text-decoration-color: aqua;
+        }
+    </style>
+
+<body>
+
+
+        <div class="test">
+            <h1>This is a test Page for Deleting Movie</h1>
+             <form method="POST" action="http://localhost/movies_api/delete_movie.php" >
+                 <input type="text" name="id" value="1" /><br>
+                 
+                 
+                 <input type="submit" value="submit" />            
+            </form>   
+            
+        </div>
+
+</body>
+</html>

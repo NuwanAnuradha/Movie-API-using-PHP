@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+<title>Page Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+        body{
+            background-image: url('img_la.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+        .test{
+            text-align: center;
+        }
+         h1{
+            text-decoration-color: aqua;
+        }
+    </style>
+
+<body>
+
+
+        <div class="test">
+            <h1>This is a test Page for Updating Movie</h1>
+             <form method="POST" action="http://localhost/movies_api/create_movie.php" >
+                 <input type="text" name="title" value="Inception" /><br>
+                 <input type="text" name="storyline" value="Dream Comes True" /><br>
+                 <input type="text" name="lang" value="English" /><br>
+                 <input type="text" name="genre" value="Sci-Fi" /><br>
+                 <input type="text" name="release_date" value="2010" /><br>
+                 <input type="text" name="run_time" value="120" /><br>
+                 <input type="text" name="box_office" value="9000" /><br>
+                 <input type="text" name="stars" value="9" /><br>
+                 
+                 <input type="submit" value="submit" />            
+                       
+            </form>   
+            
+        </div>
+
+</body>
+</html>
